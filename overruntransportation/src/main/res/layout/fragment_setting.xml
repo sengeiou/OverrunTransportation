@@ -1,0 +1,273 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.hcbd.overruntransportation.ui.fragment.SettingFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/tab_bar_color_current">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_text"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="登录名"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_userName"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="用户名"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="执法证书"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_banNo"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="单位信息"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_credit"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="职务信息"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_post"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="Email"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_email"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="生日"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_birthday"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="性别"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_sex"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="办公电话"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_phone"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="手机"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_mobilephone"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="是否邮件提醒"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_notice"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+                <View style="@style/line_style" />
+
+                <LinearLayout style="@style/setting_item_style">
+                    <TextView
+                        android:text="状态"
+                        style="@style/setting_title_style" />
+                    <TextView
+                        android:id="@+id/tv_state"
+                        style="@style/setting_info_style" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:id="@+id/rl_ip_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/selector_layout_click_bg">
+                    <TextView
+                        android:text="@string/ip_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"
+                        android:maxWidth="85dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_more"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="25dp"/>
+                </RelativeLayout>
+                <View style="@style/line_style" />
+                <RelativeLayout
+                    android:id="@+id/rl_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/selector_layout_click_bg">
+                    <TextView
+                        android:text="@string/about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"
+                        android:maxWidth="85dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_more"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="25dp"/>
+                </RelativeLayout>
+                <View style="@style/line_style" />
+                <RelativeLayout
+                    android:id="@+id/rl_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/selector_layout_click_bg">
+                    <TextView
+                        android:text="@string/feedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"
+                        android:maxWidth="85dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_more"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="25dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_update_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/selector_layout_click_bg"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:text="@string/update_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:maxWidth="85dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_more"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_sign_out"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/selector_layout_click_bg"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="退出登录"
+                android:textSize="14sp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

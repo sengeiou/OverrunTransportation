@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.android.hcbd.overruntransportation.ui.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_bottom"></FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b2b2b2"
+        android:layout_above="@+id/rg_bottom"/>
+    
+    <RadioGroup
+        android:id="@id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:text="@string/home_text"
+            style="@style/BottomBar"
+            android:drawableTop="@drawable/tab_bar_home_icon_selector"/>
+        <RadioButton
+            android:id="@+id/rb_info"
+            android:text="@string/info_text"
+            style="@style/BottomBar"
+            android:drawableTop="@drawable/tab_bar_query_icon_selector"/>
+        <RadioButton
+            android:id="@+id/rb_setting"
+            android:text="@string/setting_text"
+            style="@style/BottomBar"
+            android:drawableTop="@drawable/tab_bar_setting_icon_selector"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

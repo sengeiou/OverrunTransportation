@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#11a9ee</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#f2f2f2</color>
+    <color name="gray2">#f1f1f1</color>
+    <color name="line">#cccccc</color>
+    <color name="line2">#aaaaaa</color>
+    <color name="red">#ff0000</color>
+
+    <color name="login_bg">#377eb4</color>
+    <color name="login_button_bg">#77B3D7</color>
+    <color name="tab_bar_color">#4c4c4c</color>
+    <color name="tab_bar_color_current">#11a9ee</color>
+    <color name="setting_text">#808080</color>
+    <color name="text_color">#404040</color>
+
+    <color name="menu_color1">#2FB2EE</color>
+    <color name="menu_color2">#33E683</color>
+    <color name="menu_color3">#E83131</color>
+    <color name="menu_color4">#F17B29</color>
+
+</resources>
